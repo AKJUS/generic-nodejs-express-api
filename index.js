@@ -22,7 +22,7 @@ if (process.env.HTTPS) {
 }
 
 const server = process.env.HTTPS ? require('https').createServer(options, app) : require('http').createServer(app);
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 const cors = require('cors');
 
 /**
