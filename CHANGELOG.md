@@ -1,5 +1,11 @@
 # Changelog
 
+### ..1
+
+Changes in this version:
+
+* fix: added windows functional command for package.json
+
 ### 0.1.6
 
 Changes in this version:
